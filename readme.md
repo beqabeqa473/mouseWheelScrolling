@@ -17,7 +17,10 @@ The following keys must be used when wheel scrolling mode is turned on by pressi
 * home: Tries to scroll up to maximum. Especially needed for sliders which cannot be controlled from keyboard,
 * end: Tries to scroll down to minimum. Especially needed for sliders which cannot be controlled from keyboard.
 
-## Changes for 1.0 ##
+## Changes for 0.1.1 ##
+* Fixed bug with missing import.
+
+## Changes for 0.1.0 ##
 * Initial version.
 
 [1]: https://addons.nvda-project.org/legacy?file=mouseWheelScrolling

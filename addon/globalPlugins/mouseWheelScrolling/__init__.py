@@ -3,6 +3,7 @@
 #This file is covered by the GNU General Public License.
 #See the file COPYING for more details.
 
+import addonHandler
 import globalPluginHandler
 import mouseHandler
 from scriptHandler import script
@@ -10,7 +11,7 @@ import tones
 import winUser
 
 _curAddon = addonHandler.getCodeAddon()
-addonName = _curAddon.name.lower()
+addonName = _curAddon.name
 _addonSummary = _curAddon.manifest['summary']
 addonHandler.initTranslation()
 
