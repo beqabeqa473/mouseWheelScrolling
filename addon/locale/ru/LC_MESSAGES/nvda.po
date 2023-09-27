@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the 'mouseWheelScrolling' package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 'mouseWheelScrolling' '0.1.1'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2023-09-27 11:35+0400\n"
+"PO-Revision-Date: 2023-09-27 13:12+0400\n"
+"Last-Translator: DraganRatkovich\n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: addon\globalPlugins\mouseWheelScrolling\__init__.py:42
+msgid "Scrolls up an object under the mouse cursor"
+msgstr "Прокручивает вверх объект под курсором мыши"
+
+#: addon\globalPlugins\mouseWheelScrolling\__init__.py:46
+msgid "Scrolls down an object under the mouse cursor"
+msgstr "Прокручивает вниз объект под курсором мыши"
+
+#: addon\globalPlugins\mouseWheelScrolling\__init__.py:50
+msgid "Scrolls left an object under the mouse cursor"
+msgstr "Прокручивает влево объект под курсором мыши"
+
+#: addon\globalPlugins\mouseWheelScrolling\__init__.py:54
+msgid "Scrolls right an object under the mouse cursor"
+msgstr "Прокручивает вправо объект под курсором мыши"
+
+#: addon\globalPlugins\mouseWheelScrolling\__init__.py:58
+msgid "Scrolls up page of an object under the mouse cursor"
+msgstr "Прокручивает вверх страницу объекта под курсором мыши"
+
+#: addon\globalPlugins\mouseWheelScrolling\__init__.py:62
+msgid "Scrolls down page of an object under the mouse cursor"
+msgstr "Прокручивает вниз страницу объекта под курсором мыши"
+
+#: addon\globalPlugins\mouseWheelScrolling\__init__.py:66
+msgid ""
+"Tries to scroll an object to the maximum point. Especially usable for sliders"
+msgstr ""
+"Пытается прокрутить объект до максимальной точки. Особенно полезно для "
+"ползунков"
+
+#: addon\globalPlugins\mouseWheelScrolling\__init__.py:70
+msgid ""
+"Tries to scroll an object to the minimum point. Especially usable for sliders"
+msgstr ""
+"Пытается прокрутить объект до минимальной точки. Особенно полезно для "
+"ползунков"
+
+#: addon\globalPlugins\mouseWheelScrolling\__init__.py:74
+msgid "toggles a mode of scrolling with mouse wheel"
+msgstr "Переключает режим прокрутки колесиком мыши"
+
+#: addon\globalPlugins\mouseWheelScrolling\donate_dialog.py:22
+msgid "Donate via Paypal"
+msgstr "Пожертвовать через Paypal"
+
+#: addon\globalPlugins\mouseWheelScrolling\donate_dialog.py:23
+msgid "Donate via Yoomoney"
+msgstr "Пожертвовать через Yoomoney"
+
+#: addon\globalPlugins\mouseWheelScrolling\donate_dialog.py:38
+#, python-brace-format
+msgid "Request for contributions to {summary}"
+msgstr "Запрос на пожертвование в пользу {summary}"
+
+#: addon\globalPlugins\mouseWheelScrolling\donate_dialog.py:39
+#, python-brace-format
+msgid ""
+"{summary} is a free add-on for NVDA.\n"
+"You can make a donation to its author to support further development of this "
+"and other free projects.\n"
+"Do you want to donate now? Choose one of the available payment methods. You "
+"will be redirected to the corresponding website to complete a donation"
+msgstr ""
+"{summary} — это бесплатное дополнение для NVDA.\\n\n"
+"Вы можете сделать пожертвование его автору для поддержки дальнейшего "
+"развития этого и других бесплатных проектов.\\n\n"
+"Вы хотите сделать пожертвование сейчас? Выберите один из доступных способов "
+"оплаты. Вы будете перенаправлены на соответствующий сайт для совершения "
+"пожертвования"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: buildVars.py:23
+msgid "Mouse wheel scrolling"
+msgstr "Прокрутка колеса мыши"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:26
+msgid ""
+"This addon makes it possible to emulate mouse wheel to scroll an object from "
+"a keyboard."
+msgstr ""
+"Это дополнение позволяет эмулировать колесо мыши для прокрутки объекта с "
+"клавиатуры."
