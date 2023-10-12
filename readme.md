@@ -17,8 +17,11 @@ The following keys must be used when wheel scrolling mode is turned on by pressi
 * home: Tries to scroll up to maximum. Especially needed for sliders which cannot be controlled from keyboard,
 * end: Tries to scroll down to minimum. Especially needed for sliders which cannot be controlled from keyboard.
 
+## Changes for 0.2.1 ##
+* Fixed showing donations.
+
 ## Changes for 0.2 ##
-* Fixed bug with scrolling direction when using keys other than arrows.;
+* Fixed bug with scrolling direction when using keys other than arrows;
 * Fixed a case when it was not possible to assign custom gestures;
 * Code optimizations.
 

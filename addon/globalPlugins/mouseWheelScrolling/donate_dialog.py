@@ -32,8 +32,9 @@ class DonationDialog(gui.nvdaControls.MessageDialog):
         webbrowser.open(donateUrl)
         self.EndModal(wx.OK)
 
-def requestDonations(parentWindow):
-    addon = addonHandler.getCodeAddon()
+def requestDonations(parentWindow, addon=None):
+    if addon is None:
+        addon = addonHandler.getCodeAddon()
     addonSummary = addon.manifest['summary']
     title = _("Request for contributions to {summary}").format(summary=addonSummary)
     message = _("{summary} is a free add-on for NVDA.\n"

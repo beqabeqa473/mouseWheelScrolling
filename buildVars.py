@@ -25,7 +25,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("""This addon makes it possible to emulate mouse wheel to scroll an object from a keyboard."""),
 	# version
-	"addon_version": "0.2",
+	"addon_version": "0.2.1",
 	# Author(s)
 	"addon_author": "Beka Gozalishvili <beqaprogger@gmail.com>",
 	# URL for the add-on documentation support

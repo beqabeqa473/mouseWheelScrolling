@@ -15,5 +15,5 @@ addonHandler.initTranslation()
 
 def onInstall():
     gui.mainFrame.prePopup()
-    wx.CallAfter(requestDonations, gui.mainFrame)
+    wx.CallAfter(requestDonations, gui.mainFrame, addon)
     gui.mainFrame.postPopup()
