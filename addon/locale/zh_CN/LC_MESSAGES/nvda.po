@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the 'mouseWheelScrolling' package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 'mouseWheelScrolling' '0.1.1'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2023-09-27 11:35+0400\n"
+"PO-Revision-Date: 2023-10-12 09:40+0800\n"
+"Last-Translator: 完美很难 <1872265132@qq.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4\n"
+
+#: addon\globalPlugins\mouseWheelScrolling\__init__.py:42
+msgid "Scrolls up an object under the mouse cursor"
+msgstr "向上滚动鼠标指针所在的对象"
+
+#: addon\globalPlugins\mouseWheelScrolling\__init__.py:46
+msgid "Scrolls down an object under the mouse cursor"
+msgstr "向下滚动鼠标指针所在的对象"
+
+#: addon\globalPlugins\mouseWheelScrolling\__init__.py:50
+msgid "Scrolls left an object under the mouse cursor"
+msgstr "向左滚动鼠标指针所在的对象"
+
+#: addon\globalPlugins\mouseWheelScrolling\__init__.py:54
+msgid "Scrolls right an object under the mouse cursor"
+msgstr "向右滚动鼠标指针所在的对象"
+
+#: addon\globalPlugins\mouseWheelScrolling\__init__.py:58
+msgid "Scrolls up page of an object under the mouse cursor"
+msgstr "将鼠标指针所在的对象滚动到上一页"
+
+#: addon\globalPlugins\mouseWheelScrolling\__init__.py:62
+msgid "Scrolls down page of an object under the mouse cursor"
+msgstr "将鼠标指针所在的对象滚动到下一页"
+
+#: addon\globalPlugins\mouseWheelScrolling\__init__.py:66
+msgid ""
+"Tries to scroll an object to the maximum point. Especially usable for sliders"
+msgstr "尝试将对象滚动到最大值，特别适用于滑块"
+
+#: addon\globalPlugins\mouseWheelScrolling\__init__.py:70
+msgid ""
+"Tries to scroll an object to the minimum point. Especially usable for sliders"
+msgstr "尝试将对象滚动到最小值，特别适用于滑块"
+
+#: addon\globalPlugins\mouseWheelScrolling\__init__.py:74
+msgid "toggles a mode of scrolling with mouse wheel"
+msgstr "切换鼠标滚轮滚动模式"
+
+#: addon\globalPlugins\mouseWheelScrolling\donate_dialog.py:22
+msgid "Donate via Paypal"
+msgstr "通过 Paypal 捐赠"
+
+#: addon\globalPlugins\mouseWheelScrolling\donate_dialog.py:23
+msgid "Donate via Yoomoney"
+msgstr "通过 Yoomoney 捐赠"
+
+#: addon\globalPlugins\mouseWheelScrolling\donate_dialog.py:38
+#, python-brace-format
+msgid "Request for contributions to {summary}"
+msgstr "请求对 {summary} 做出贡献"
+
+#: addon\globalPlugins\mouseWheelScrolling\donate_dialog.py:39
+#, python-brace-format
+msgid ""
+"{summary} is a free add-on for NVDA.\n"
+"You can make a donation to its author to support further development of this "
+"and other free projects.\n"
+"Do you want to donate now? Choose one of the available payment methods. You "
+"will be redirected to the corresponding website to complete a donation"
+msgstr ""
+"{summary} 是 NVDA 的免费插件。\n"
+"您可以向其作者捐款，以支持此项目和其他免费项目的进一步开发。\n"
+"你现在想捐款吗？选择一种可用的付款方式。您将被重定向到相应的网站以完成捐赠"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: buildVars.py:23
+msgid "Mouse wheel scrolling"
+msgstr "鼠标滚轮滚动"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:26
+msgid ""
+"This addon makes it possible to emulate mouse wheel to scroll an object from "
+"a keyboard."
+msgstr "此插件可以模拟鼠标滚轮以通过键盘滚动对象。"
